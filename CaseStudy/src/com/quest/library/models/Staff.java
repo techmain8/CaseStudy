@@ -1,18 +1,19 @@
 package com.quest.library.models;
-//name, date of birth, address, and membership status.
-public class Users {
-	private int patronId;
+//name, position, and contact information.
+public class Staff {
+	private int staffId;
     private String firstName;
     private String lastName;
     private String email;
     private String phone;
     private String address;
+    private String role;
     
-	public int getPatronId() {
-		return patronId;
+	public int getStaffId() {
+		return staffId;
 	}
-	public void setPatronId(int patronId) {
-		this.patronId = patronId;
+	public void setStaffId(int staffId) {
+		this.staffId = staffId;
 	}
 	public String getFirstName() {
 		return firstName;
@@ -44,10 +45,16 @@ public class Users {
 	public void setAddress(String address) {
 		this.address = address;
 	}
+	public String getRole() {
+		return role;
+	}
+	public void setRole(String role) {
+		this.role = role;
+	}
 	@Override
 	public String toString() {
-		return "Users [patronId=" + patronId + ", firstName=" + firstName + ", lastName=" + lastName + ", email="
-				+ email + ", phone=" + phone + ", address=" + address + "]";
+		return "Staff [staffId=" + staffId + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
+				+ ", phone=" + phone + ", address=" + address + ", role=" + role + "]";
 	}
     
     

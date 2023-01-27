@@ -2,21 +2,20 @@ package com.quest.library.models;
 
 import java.util.Date;
 
-//book, User, borrow date, and return date.
-public class Borrowing {
-	private int borrowId;
+//patron, book, fine amount, and payment status.
+public class Fine {
+	private int fineId;
     private int patronId;
     private int bookId;
-    private Date borrowedDate;
     private Date dueDate;
     private Date returnDate;
     private int fine;
     
-	public int getBorrowId() {
-		return borrowId;
+	public int getFineId() {
+		return fineId;
 	}
-	public void setBorrowId(int borrowId) {
-		this.borrowId = borrowId;
+	public void setFineId(int fineId) {
+		this.fineId = fineId;
 	}
 	public int getPatronId() {
 		return patronId;
@@ -29,12 +28,6 @@ public class Borrowing {
 	}
 	public void setBookId(int bookId) {
 		this.bookId = bookId;
-	}
-	public Date getBorrowedDate() {
-		return borrowedDate;
-	}
-	public void setBorrowedDate(Date borrowedDate) {
-		this.borrowedDate = borrowedDate;
 	}
 	public Date getDueDate() {
 		return dueDate;
@@ -56,8 +49,8 @@ public class Borrowing {
 	}
 	@Override
 	public String toString() {
-		return "Borrowing [borrowId=" + borrowId + ", patronId=" + patronId + ", bookId=" + bookId + ", borrowedDate="
-				+ borrowedDate + ", dueDate=" + dueDate + ", returnDate=" + returnDate + ", fine=" + fine + "]";
+		return "Fine [fineId=" + fineId + ", patronId=" + patronId + ", bookId=" + bookId + ", dueDate=" + dueDate
+				+ ", returnDate=" + returnDate + ", fine=" + fine + "]";
 	}
     
     
