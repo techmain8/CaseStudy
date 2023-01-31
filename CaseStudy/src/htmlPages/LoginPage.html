@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+</head>
+<body>
+    <h1>This Is Login Page</h1>
+    <p>Please Enter Details For Login<p>
+    <form action="LibraryManagementSystem.html" method="post">
+	    <label >Email: </label>
+	    	<input type="email" name="Email" required pattern="[A-Za-z._$]+@[a-z0-9.]+\.[a-z]{2,}" title="ex : abc@xyz.co include lowercase letters and numbers and proper domain name."><br>
+	    <label >Password: </label>
+		    <input type="password" name="Password" required pattern="[A-Za-Z0-9]{8,16}" title="must be from 8-16 character's include lowercase letters and numbers"><br>
+	    <input type="submit" value="Login">	
+    </form>
+    <br>
+    <nav>
+	    <a href="HomePage.html"><button style="size: 50px;">Back to Home</button></a>
+	    <a href="SignUpPage.html"><button>To SignUp</button></a>
+    </nav>
+</body>
+</html>

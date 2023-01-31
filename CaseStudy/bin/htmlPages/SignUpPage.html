@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUpPage</title>
+</head>
+<body>
+    <h1>Welcome To SignUp Page.</h1>
+	<h2>Register Here</h2>
+	<form action="LibraryManagementSystem.html" method="post">
+		<label>First Name: </label> <input type="text" name="firstname"
+			required pattern="[A-Za-z]{4,10}" title="only Uppercase & Lowercase"><br>
+		<br> 
+        <label>Last Name: </label> <input type="text"
+			name="lastname" required pattern="[A-Za-z]{4,10}"
+			title="only Uppercase & Lowercase"><br>
+		<br> 
+        <label>Address</label>
+		<textarea rows="2" cols="4" name="Address" required></textarea>
+		<br>
+		<br> 
+        <label>Phone Number</label> <input type="number"
+			name="PhoneNumber" required pattern="[0-9]{10}"><br>
+		<br> 
+        <label>Male</label> <input type="radio" name="Gender"
+			value="Male"> <label>Female</label> <input type="radio"
+			name="Gender" value="FeMale"><br>
+		<br> 
+        <label>Qualification: </label><br> <input
+			type="checkbox" name="Qualification" value="B.Tech"><label>B.Tech</label><br>
+		<input type="checkbox" name="Qualification" value="P.G"><label>P.G</label><br>
+		<input type="checkbox" name="Qualification" value="B.Eng"><label>B.Eng</label><br>
+		<input type="checkbox" name="Qualification" value="10"><label>SSLC</label><br>
+		<input type="checkbox" name="Qualification" value="PUC"><label>PUC</label><br>
+		<label>Email: </label> <input type="email" name="Email" required
+			pattern="[A-Za-z._$]+@[a-z0-9.]+\.[a-z]{2,}"
+			title="ex : abc@xyz.co include lowercase letters and numbers and proper domain name."><br>
+		<br> 
+        <label>User Name: </label> <input type="text"
+			name="username" required pattern="[a-zA-Z0-9]{4,10}"><br>
+		<br> 
+        <label>Password: </label> <input type="password"
+			name="Password" required pattern="[A-Za-Z0-9]{8,16}"
+			title="must be from 8 -16 character's include lowercase letters and numbers"><br>
+		<br> 
+        <input type="submit" name="Done">
+	</form>
+	<br>
+	<br>
+	<nav>
+		<a href="HomePage.html"><button>Back To Home</button></a> 
+        <a href="LoginPage.html"><button>To Login</button></a>
+	</nav>
+
+</body>
+</html>
