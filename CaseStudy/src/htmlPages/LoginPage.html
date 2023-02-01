@@ -9,12 +9,12 @@
 <body>
     <h1>Welcome To Login Page</h1>
     <p>Please Enter Email & Password For Login<p>
-    <form action="LibraryManagementSystem.html" method="post">
+    <form action="LibraryManagementSystem.html" method="get">
 	    <label >Email: </label>
 	    	<input type="email" name="Email" required pattern="[A-Za-z._$]+@[a-z0-9.]+\.[a-z]{2,}" title="ex : abc@xyz.co include lowercase letters and numbers and proper domain name."><br>
 	    <label >Password: </label>
 		    <input type="password" name="Password" required pattern="[A-Za-Z0-9]{8,16}" title="must be from 8-16 character's include lowercase letters and numbers"><br>
-	    <input type="submit" value="Login">	
+	    <input type="submit" value="Login" id="submit">	
     </form>
     <br>
     <nav>

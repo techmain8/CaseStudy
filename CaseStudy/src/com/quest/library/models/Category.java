@@ -1,7 +1,5 @@
 package com.quest.library.models;
 
-
-
 //name and description.
 public class Category {
 
