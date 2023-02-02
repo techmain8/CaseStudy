@@ -1,6 +1,7 @@
 package com.quest.library.models;
 //name, position, and contact information.
-public class Staff {
+public class Staff 
+{
 	private int staffId;
     private String firstName;
     private String lastName;

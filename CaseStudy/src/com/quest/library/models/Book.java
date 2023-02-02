@@ -12,6 +12,26 @@ public class Book
 	private int noOfCopies;
 	private int availableCopies;
 	
+	//Constructor
+	public Book(int bookId, String title, String iSBN, int publicationYear, int edition, int publisherId,
+			int categoryId, int noOfCopies, int availableCopies) {
+		super();
+		this.bookId = bookId;
+		this.title = title;
+		ISBN = iSBN;
+		this.publicationYear = publicationYear;
+		this.edition = edition;
+		this.publisherId = publisherId;
+		this.categoryId = categoryId;
+		this.noOfCopies = noOfCopies;
+		this.availableCopies = availableCopies;
+	}
+	
+	public Book() 
+	{
+		System.out.println();
+	}
+
 	//Getters and Setters 
 	public int getBookId() 
 	{

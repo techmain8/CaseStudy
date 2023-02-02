@@ -3,7 +3,8 @@ package com.quest.library.models;
 import java.util.Date;
 
 //book, User, borrow date, and return date.
-public class Borrowing {
+public class Borrowing 
+{
 	private int borrowId;
     private int patronId;
     private int bookId;

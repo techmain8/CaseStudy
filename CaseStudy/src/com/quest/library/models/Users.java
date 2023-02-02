@@ -1,5 +1,5 @@
 package com.quest.library.models;
-//name, date of birth, address, and membership status.
+
 public class Users 
 {
 	private int userId;

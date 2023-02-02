@@ -3,7 +3,8 @@ package com.quest.library.models;
 import java.util.Date;
 
 //patron, book, fine amount, and payment status.
-public class Fine {
+public class Fine 
+{
 	private int fineId;
     private int patronId;
     private int bookId;

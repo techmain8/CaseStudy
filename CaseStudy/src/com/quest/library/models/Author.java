@@ -1,6 +1,8 @@
 package com.quest.library.models;
-//name, date of birth, and nationality
-public class Author {
+
+
+public class Author 
+{
 	private int authorId;
     private String firstName;
     private String lastName;
