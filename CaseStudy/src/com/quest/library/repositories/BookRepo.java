@@ -101,7 +101,7 @@ public class BookRepo implements BookRepoInterface
 			Statement statement = connection.createStatement();
 			ResultSet resultSet = statement.executeQuery("SELECT * FROM book");
 
-			while (resultSet.next()) 
+			while(resultSet.next()) 
 			{
 				int id = resultSet.getInt("book_id");
 				String title = resultSet.getString("title");
